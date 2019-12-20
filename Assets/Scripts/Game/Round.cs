@@ -28,12 +28,12 @@ public class Round
         if (mRoundID<roundID)
         {
             mNextRound.Handle(roundID);
-
         }
         else
         {
             //产生怪物
-
+            GameController.Instance.mMonsterIDList = roundInfo.mMonsterIDList;
+            GameController.Instance.CreateMonster();
         }
     }
 }

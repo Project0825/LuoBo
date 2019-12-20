@@ -11,7 +11,7 @@ public class RuntimeAnimControllerFactory : IBaseResourcesFactory<RuntimeAnimato
 
     public RuntimeAnimControllerFactory()
     {
-        loadPath = "Animator/";
+        loadPath = "Animator/AnimatorController/";
     }
 
     public RuntimeAnimatorController GetSingleResources(string resourcePath)

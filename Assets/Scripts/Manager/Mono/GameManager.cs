@@ -32,8 +32,8 @@ public class GameManager : MonoBehaviour {
         playerManager = new PlayerManager();
         factoryManager = new FactoryManager();
         audioManager = new AudioManager();
-        uiManager = new UIManager();
-        uiManager.mUIFacade.currentSceneState.EnterScene();
+        //uiManager = new UIManager();
+        //uiManager.mUIFacade.currentSceneState.EnterScene();
 
     }
     public GameObject CreatItem(GameObject itemGo)
